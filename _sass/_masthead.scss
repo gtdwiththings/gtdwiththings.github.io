@@ -1,0 +1,50 @@
+// Masthead
+//
+// Super small header above the content for site name and short description.
+
+.masthead {
+  padding-top: var(--spacer);
+  padding-bottom: 4rem;
+}
+
+.masthead-title {
+  margin-bottom: 0;
+  color: inherit;
+
+  text-transform: none;
+  font-family: Helvetica;
+  font-size: var(--masthead-size);
+  font-weight: var(--masthead-weight);
+
+  a {
+    color: var(--blue-things);
+    text-decoration: none;
+  }
+
+  small {
+    font-weight: 400;
+    opacity: .9;
+  }
+}
+
+// Navbar styles
+.nav {
+  float: right;
+  word-spacing: 1rem; 
+
+  a {
+    color: var(--nav-color);
+    font-size: var(--nav-size);
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+
+  a:hover {
+    color: var(--blue-400);
+    text-decoration: underline;
+  }    
+
+  .active {
+    font-weight: 700;
+  }
+}

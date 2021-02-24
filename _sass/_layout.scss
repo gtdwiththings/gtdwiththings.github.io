@@ -1,0 +1,75 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+.container {
+  max-width: 48rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+footer {
+  margin-top: var(--spacer-3);
+  margin-bottom: var(--spacer-3);
+  text-align: center;
+  font-size: 12pt;
+}
+
+.posts {
+  // padding-top: 1.5rem;
+}
+
+article.post {
+  // padding-top: 1.5rem;
+}
+
+article {
+  flex: 1;
+  margin: 0;
+  max-width: 40.5em; // 650px
+  width: 100%;
+}
+
+.tag-list {
+  background-color: var(--main-background-color);
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20%;
+  padding: 0;
+  a {
+    background-color: var(--border-color);
+    border: 1px solid var(--light-border-color);
+    font-size: var(--body-font-size);
+    font-variant-numeric: normal;
+    margin: 1% 2% 1% 0;
+    padding: .25em .75em .25em .55em;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: var(--main-background-color);
+  }
+}
+
+.posts-by-tag {
+  h2 {
+    padding-top: calc(2 * var(--line-height));
+  }
+}
+
+.internal-link, .internal-link a {
+  color: var(--light-text-color);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.screen-reader-only {
+    position: absolute;
+    left: -5000px;
+    
+    &:focus {
+        left: 0;
+    }
+}

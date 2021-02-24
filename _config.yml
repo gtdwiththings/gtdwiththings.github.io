@@ -1,0 +1,36 @@
+# Setup
+title:               GTD with Things
+tagline:             A site for productivity nerds who want to improve their effectiveness using app such as Things.
+url:                 https://www.gtdwiththings.com
+paginate:            5
+
+# Permalinks
+permalink:           pretty
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Chris Decker
+  url:               https://twitter.com/mdo
+  email:             hello@gtdwiththings.com
+
+plugins:             [jekyll-paginate, jekyll-feed]
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+
+# Navbar page list
+nav:
+  - title: archive
+    url: /archive/
+
+  - title: about
+    url: /about/
