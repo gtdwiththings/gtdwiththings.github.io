@@ -10,7 +10,7 @@ layout: default
   <br />
 	<div class="post-tagged">Tagged: &nbsp;&nbsp;
 	{% for tag in page.tags %}
-  		<a href="/archive/tags/#{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+  		<a href="/archive/tags#{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
   	{% endfor %}
   	</div>
   
