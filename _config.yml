@@ -17,7 +17,7 @@ sass:
 # About/contact
 author:
   name:              Chris Decker
-  url:               https://twitter.com/mdo
+  url:               https://gtdwiththings.com
   email:             hello@gtdwiththings.com
 
 plugins:             [jekyll-paginate, jekyll-feed]
