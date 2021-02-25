@@ -15,6 +15,6 @@ This site is a fan site and is _not_ affiliated with:
 ### Site Credits
 - [Jekyll](https://jekyllrb.com/) for their simple, but useful static site generator 
 - [GitHub](https://github.com/) for their [GitHub Pages](https://pages.github.com/) offering to generate/serve this site
-- [Mark Otto](https://twitter.com/mdo) for his [Jekyll Poole theme](https://www.getpoole.com)
+- [Mark Otto](https://twitter.com/mdo) for his [Jekyll Poole theme](https://getpoole.com)
 - [Derek Kedziora](https://github.com/derekkedziora/derekkedziora.com) for his useful posts on creating a tag page
 - [John Sorrentino](https://twitter.com/johnsorrentino) for the site's favicon
