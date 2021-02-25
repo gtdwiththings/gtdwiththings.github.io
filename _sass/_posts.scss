@@ -54,6 +54,11 @@
     color: var(--gray-600);
     text-decoration: none;
   }
+
+  a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }  
 }
 
 
