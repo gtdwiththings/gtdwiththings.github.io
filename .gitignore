@@ -1,0 +1,6 @@
+.DS_Store
+
+nohup.out
+
+_site/*
+.jekyll-cache
