@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-I'm Chris Decker and I started this site to help others on their GTD journey with the Things app.  If you have any suggestions or want to share your workflow, [please e-mail me your idea](mailto:hello@gtdwiththings.com).
+I'm Chris Decker and I started this site to help others on their GTD journey with the Things app.  I personally chose Things because it doesn't _require_ you to be a GTD ninja to use it effectively, but that doesn't mean you can't increase your productivity learning from others.  If you have any suggestions or want to share your workflow, [please e-mail me your idea](mailto:hello@gtdwiththings.com).
 
 ----
 
